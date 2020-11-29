@@ -29,7 +29,7 @@ con los parametros L y P que se pusieron.
 - En la carpeta S_p hay un programa que realiza la simulación un número de veces kmax. Esto se repite para cada valor de p entre 0 y 1 en intervalos de 0.01, con eso se hace un promedio del número de arboles quemados en funcion de p y se puede graficar con el archivo grafica_SvsP.py dentro de esta misma carpeta.
 - En la carpeta S_t hay dos archivos para compilar. S_vs_t.cpp que sirve para correr la simulacion para diferentes valores de p y guardar un archivo con el número de árboles en cada estado, en cada paso de tiempo. El archivo S_t se usa para simular el sistema un número k_max de veces para valores de p entre 0 y 1 con paso 0.02. Se promedia el número total de árboles quemado para todas las k_max simulaciones hechas con el mismo p y se guardan en un archivo. Se puede graficar  con el archivo grafica_SvsT.py
 
-Para poder compilar los archivos en S_p y S_t hay que poner en la misma carpeta el archivo que se quiere junto con bosque.cpp y bosque.h que están en las carpetas ya indicadas. Los parámetros se pueden cambiar dentro del archivo, además se puede cambiar el tamaño de paso de incremento de p y el número de veces kmax que se corre cada simulación de cada p.
+Para poder compilar los archivos en S_p y S_t hay que poner las banderas de compilación adecuadas segun la ubicación de los archivos bosque.cpp y bosque.h que están en las carpetas ya indicadas. Los parámetros se pueden cambiar dentro del archivo, además se puede cambiar el tamaño de paso de incremento de p y el número de veces kmax que se corre cada simulación de cada p.
 
 ## Autores
 - Valentina Bedoya
