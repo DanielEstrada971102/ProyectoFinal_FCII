@@ -8,7 +8,7 @@
  * @autors - Daniel Estrada
  *         
  *///===========================================================================
-#include "../bosque.h"
+#include "./bosque.h"
 
 
 int main(int argc, char const *argv[])
